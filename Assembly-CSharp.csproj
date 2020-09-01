@@ -45,7 +45,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Boid.cs" />
      <Compile Include="Assets\Scripts\Bot.cs" />
+     <Compile Include="Assets\Scripts\FlockManager.cs" />
      <Compile Include="Assets\Scripts\Path.cs" />
      <Compile Include="Assets\Scripts\PathNode.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
@@ -592,9 +594,29 @@
       <Project>{2430fe3e-6481-8608-30c8-ef120de245a3}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.csproj">
+      <Project>{096beb8f-4f19-9f44-a924-5af16348501b}</Project>
+      <Name>Unity.ProGrids</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{82bf92e7-7209-997e-a4e7-112cac5841b4}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.csproj">
+      <Project>{1944f954-3fa6-e767-d59f-8b00f805b0fe}</Project>
+      <Name>Unity.ProBuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Editor.csproj">
+      <Project>{2daa5f39-9395-6795-a591-49a6935ad8a3}</Project>
+      <Name>Unity.ProBuilder.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AssetIdRemapUtility.csproj">
+      <Project>{5f3676f1-1b55-04cf-f645-f6478ea80f24}</Project>
+      <Name>Unity.ProBuilder.AssetIdRemapUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProGrids.Editor.csproj">
+      <Project>{486b54ae-4a6d-f926-3900-f1ffcae8c02f}</Project>
+      <Name>Unity.ProGrids.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{030e1424-2b30-4a20-34c7-ec57eb44dcc8}</Project>
@@ -615,6 +637,10 @@
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
       <Project>{30245d11-3b84-202e-9c3c-5fdb691f3fae}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.AddOns.Editor.csproj">
+      <Project>{cb16e225-15a4-b322-548b-313e29667299}</Project>
+      <Name>Unity.ProBuilder.AddOns.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{d34cba11-835a-d848-a878-b050c409ac91}</Project>
