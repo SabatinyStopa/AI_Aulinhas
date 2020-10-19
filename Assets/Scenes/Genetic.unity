@@ -334,7 +334,7 @@ MonoBehaviour:
   m_TournamentSize: 2
   m_MutationRate: 0.02
   m_Generation: 0
-  m_MaxTime: 10
+  m_MaxTime: 3
 --- !u!4 &1594104959
 Transform:
   m_ObjectHideFlags: 0
