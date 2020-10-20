@@ -47,6 +47,11 @@
      <Compile Include="Assets\Scripts\Bot.cs" />
      <Compile Include="Assets\Scripts\FlockManager.cs" />
      <Compile Include="Assets\Scripts\GeneticAlgorithm.cs" />
+     <Compile Include="Assets\Patrol.cs" />
+     <Compile Include="Assets\Scripts\FSM\StateMachineBot.cs" />
+     <Compile Include="Assets\Attack.cs" />
+     <Compile Include="Assets\Scripts\FSM\BaseFSM.cs" />
+     <Compile Include="Assets\FindLife.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
