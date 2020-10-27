@@ -36,10 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Patrol.cs" />
+     <Compile Include="Assets\Scripts\FSM\BaseFSM.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\FSM\StateMachineBot.cs" />
      <Compile Include="Assets\Scripts\LevelGenerator.cs" />
-     <Compile Include="Assets\Scripts\Path.cs" />
      <Compile Include="Assets\Scripts\Helper.cs" />
+     <Compile Include="Assets\Attack.cs" />
      <Compile Include="Assets\Scripts\PathNode.cs" />
      <Compile Include="Assets\Scripts\Chromosome.cs" />
      <Compile Include="Assets\Scripts\Chameleon.cs" />
@@ -47,11 +50,47 @@
      <Compile Include="Assets\Scripts\Bot.cs" />
      <Compile Include="Assets\Scripts\FlockManager.cs" />
      <Compile Include="Assets\Scripts\GeneticAlgorithm.cs" />
-     <Compile Include="Assets\Patrol.cs" />
-     <Compile Include="Assets\Scripts\FSM\StateMachineBot.cs" />
-     <Compile Include="Assets\Attack.cs" />
-     <Compile Include="Assets\Scripts\FSM\BaseFSM.cs" />
      <Compile Include="Assets\FindLife.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\Bullet.cs" />
+     <Compile Include="Assets\PandaBehaviour\Core\PandaBehaviour.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\Unit.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\BulletImpact.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\AI.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\00_ChangeColor\Assets\MyCube.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\FollowCamera.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\Patroller.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\HUD.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\AIVision.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\02_PlayTag\Assets\Player.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\ShooterGameController.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\02_PlayTag\Assets\Dialogue.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\01_Move\Assets\Move.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\WaypointPath.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\UnitExplosion.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\TriggerType.cs" />
+     <Compile Include="Assets\PandaBehaviour\Examples\02_PlayTag\Assets\Computer.cs" />
+     <Compile Include="Assets\Scripts\Path0.cs" />
+     <Compile Include="Assets\Scripts\WanderBotPanda.cs" />
+     <None Include="Assets\PandaBehaviour\Examples\02_PlayTag\Assets\TagDialogue.BT.txt" />
+     <None Include="Assets\Panda\Wander.txt" />
+     <None Include="Assets\Panda\Attack.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\02_PlayTag\Assets\PlayTag.commented.BT.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\01_Move\Assets\Move.BT.txt" />
+     <None Include="Assets\PandaBehaviour\README.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\Player.BT.txt" />
+     <None Include="Assets\PandaBehaviour\Core\PandaBehaviour.xml" />
+     <None Include="Assets\PandaBehaviour\ChangeLog.txt" />
+     <None Include="Assets\Panda\Patrol.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\Sniper.BT.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\00_ChangeColor\Assets\ChangeColor.BT.txt" />
+     <None Include="Assets\Panda\Turn.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\Hunter.BT.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\02_PlayTag\Assets\Computer.BT.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\Patroller.BT.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\02_PlayTag\Assets\PlayTag.BT.txt" />
+     <None Include="Assets\Panda\Flee.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\AI.BT.lib.txt" />
+     <None Include="Assets\PandaBehaviour\Examples\03_Shooter\Assets\GameController.BT.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -240,6 +279,9 @@
     </Reference>
     <Reference Include="UnityEditor">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.9f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="PandaBehaviour">
+        <HintPath>C:/Projetos unity/AI/Assets/PandaBehaviour/Core/PandaBehaviour.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.9f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

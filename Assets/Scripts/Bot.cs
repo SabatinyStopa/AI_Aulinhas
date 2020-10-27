@@ -18,7 +18,7 @@ public class Bot : MonoBehaviour {
     public float m_HidingOffset = 3.0f;
 
     [Header("Path follow")]
-    public Path m_Path;
+    public Path0 m_Path;
 
     public bool seek = false;
     public bool wander = false;

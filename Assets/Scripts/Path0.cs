@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class Path{
+public class Path0{
     public PathNode[] m_Nodes;
     private int m_CurrentIndex = 0;
 
